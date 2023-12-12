@@ -31,6 +31,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Analyzed the code to gather to-do tasks.
 - 0.2
   - Improved React logic and also made the website look better,also improved structure
   - See [commit change](https://github.com/axense234/Navbar-REACT/commits/master) or See [release history](https://github.com/axense234/Navbar-REACT/releases)
