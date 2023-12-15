@@ -11,6 +11,8 @@ A simple React Project that focuses on the basics of creating a navbar along wit
 ### Dependencies
 
 - Check package.json for details.
+- Git
+- Docker(optional)
 
 ### Installing
 
@@ -20,9 +22,20 @@ git clone https://github.com/axense234/Navbar-REACT.git
 
 ### Executing program
 
+- **Using NPM**
+
 ```
 npm install
 npm start
+```
+
+- **Using Docker**
+
+```
+docker build -t navbar-react:0.3.0 .
+docker stop navbar-react-app
+docker rm navbar-react-app
+docker run -p 3000:3000 -d --name navbar-react-app navbar-react:0.3.0
 ```
 
 ## **Authors**
